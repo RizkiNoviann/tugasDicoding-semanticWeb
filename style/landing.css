@@ -136,3 +136,13 @@ main{
     align-self: stretch;
     }
 }
+
+
+/* footer */
+
+footer{
+    font-family: 'Graduate';
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 700;
+}
