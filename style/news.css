@@ -68,11 +68,13 @@ main{
     font-family: 'Graduate';
     text-align: center;
     padding: 20px 0;
+    color: tomato;
 }
 
 .container-1{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .news-1{
     overflow: hidden;
@@ -86,4 +88,18 @@ main{
 
 .news-title-1{
     margin-left: 20px;
+}
+
+.news-title-1 p a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    font-family: 'Graduate';
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 700;
 }

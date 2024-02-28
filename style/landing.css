@@ -101,6 +101,11 @@ main{
     justify-content: center;
 }
 
+.ct-btn button a{
+    text-decoration: none;
+    color: white;
+}
+
 .content-deskripsi button{
     font-size: 15px;
     font-weight: 500;
@@ -113,7 +118,7 @@ main{
     cursor: pointer;
 }
 
-.content-deskripsi button:hover{
+.content-deskripsi button a:hover{
     color: blue;
     transition: all .3s ease-in-out;
 }
