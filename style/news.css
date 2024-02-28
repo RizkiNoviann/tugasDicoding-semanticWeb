@@ -52,3 +52,38 @@ li a{
     gap: 5px;
     font-size: 40px;
 }
+
+/* konten */
+main{
+    padding: 0 20px;
+}
+
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.tag{
+    font-family: 'Graduate';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.news-1{
+    overflow: hidden;
+    width: fit-content;
+    height:fit-content;
+    display: flex;
+    justify-items: baseline;
+    /* border: 1px solid; */
+    margin: 0 50px;
+}
+
+.news-title-1{
+    margin-left: 20px;
+}
