@@ -4,6 +4,7 @@
 }
 
 body{
+    font-family: 'Roboto';
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -63,12 +64,75 @@ main{
     align-items: center;  
 }
 
-.content-title{
+.content-deskripsi{
     display: flex;
-    flex-direction: row;
-    font-size: 3rem;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    text-align: justify;
+    width: auto;
 }
 
-.content-logo img{
+.content-title{
+    font-family: 'Graduate';
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+}
+
+.ct-1{
+    color: tomato;
+}
+
+.ct-2{
+    font-size: 50px;
+    color: blue;
+}
+.content-logo figure img{
     width: 300px;
+    padding-right: 15rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ct-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-deskripsi button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    color:white;
+    background-color: tomato;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content-deskripsi button:hover{
+    color: blue;
+    transition: all .3s ease-in-out;
+}
+
+/* Perangkat dengan lebar layar 1200px dan di bawahnya */
+@media screen and (max-width: 1200px) {
+    main {
+    flex-flow: column nowrap;
+    }
+    main aside {
+    align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+    justify-content: center;
+    }
+    main aside {
+    align-self: stretch;
+    }
 }
