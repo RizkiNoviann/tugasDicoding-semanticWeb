@@ -12,11 +12,13 @@ body{
 
 .navbar-container{
     width: 100%;
-    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-block: 2em;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .nav-list ul {
@@ -59,7 +61,7 @@ main{
 }
 
 #card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 20px;
 }
